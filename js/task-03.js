@@ -27,7 +27,7 @@ galleryEl.classList.add('gallery__list');
 const makeMarkup = ({ url, alt }) => {
   return `
     <li >
-       <img class='gallery__item' src="${url}" alt="${alt}">
+      <img class='gallery__item' src="${url}" alt="${alt}">
     </li>`;
 };
 
